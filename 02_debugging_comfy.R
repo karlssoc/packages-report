@@ -40,3 +40,8 @@ test %>% select(-a) %>% na_if("")
 test %>% 
   mutate_if(is.numeric, list(~na_if(.,""))) %>% 
   mutate_if(is.factor, list(~na_if(.,""))) 
+
+
+
+
+sessionInfo()
