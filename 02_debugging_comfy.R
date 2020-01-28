@@ -1,4 +1,12 @@
-# dplyr::na_if(x, y) replaces NA values in `x` with `y`
+#' ---
+#' output: github_document
+#' ---
+
+
+
+
+
+#dplyr::na_if(x, y) replaces NA values in `x` with `y`
 # it works when x is a data.frame _without_ Date objects, but fails when there is a Date in the df
 # Can you use our debugging tools to figure out where and why it is failing?
 library(dplyr)
