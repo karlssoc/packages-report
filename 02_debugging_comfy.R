@@ -9,13 +9,13 @@ test <- data.frame(
   c = c(runif(4), ""),
   d = c(sample(letters, 4, replace = TRUE), ""))
 
-
+# khsdfkj
 
 
 
 # The traceback is easier to understand without the pipe involved
 
-na_if(test,"") 
+#na_if(test,"") 
 
 # Also useful to look at the implementation of `na_if()`
 # Can you reproduce the error without using `na_if()`?
